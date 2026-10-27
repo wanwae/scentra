@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!--
+  Lumen Eighty Template
+  https://templatemo.com/tm-628-lumen-eighty
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUMEN // 80 - Scandinavian Furniture & Spatial Design Atelier</title>
+<meta name="description" content="LUMEN // 80 is a luxury Scandinavian furniture and spatial design atelier. Minimalist lounge pieces, monolith tables, architectural lighting and bespoke textiles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="templatemo-628-lumen-style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="brand" data-route="home">Scèntra</a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#home" data-route="home">Home</a></li>
+        <li class="nav-item has-drop">
+          <a class="nav-link" href="#catalogue" data-route="catalogue" aria-haspopup="true">Catalogue <span class="caret"></span></a>
+          <ul class="dropdown">
+            <li class="drop-label">Collections</li>
+            <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-lounge">Scèntra White Floral</a></li>
+            <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-tables">Scèntra Fruity</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-drop">
+          <a class="nav-link" href="#atelier" data-route="atelier" aria-haspopup="true">Dossier <span class="caret"></span></a>
+          <ul class="dropdown">
+            <li class="drop-label">The Backgrounds</li>
+            <li><a href="#atelier" data-route="atelier" data-anchor="at-philosophy">Fragrance Philosophy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#inquire" data-route="inquire">Inquire</a></li>
+      </ul>
+      <a href="#inquire" class="nav-cta" data-route="inquire">Buy Now</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE NAV ============ -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <ul>
+    <li><a class="m-link" href="#home" data-route="home">Home</a></li>
+    <li>
+      <div class="m-drop-head">
+        <a class="m-link" href="#catalogue" data-route="catalogue">Catalogue</a>
+        <button class="m-sub-toggle" aria-expanded="false" aria-label="Toggle catalogue submenu"><span class="caret"></span></button>
+      </div>
+      <ul class="m-sub">
+        <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-lounge">Scèntra White Floral</a></li>
+        <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-tables">Scèntra Fruity</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="m-drop-head">
+        <a class="m-link" href="#atelier" data-route="atelier">Dossier</a>
+        <button class="m-sub-toggle" aria-expanded="false" aria-label="Toggle atelier submenu"><span class="caret"></span></button>
+      </div>
+      <ul class="m-sub">
+        <li><a href="#atelier" data-route="atelier" data-anchor="at-philosophy">Fragrance Philosophy</a></li>
+      </ul>
+    </li>
+    <li><a class="m-link" href="#inquire" data-route="inquire">Inquire</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- ============ PAGE: HOME ============ -->
+<section class="page" id="page-home">
+
+  <div class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <span class="eyebrow">Malaysia / Est. 2026</span>
+        <h1 class="editorial-title hero-title" style="margin-top:22px;">Scèntra, be center of<br>attention <em>by</em> scent.</h1>
+        <p class="lede hero-copy">Scèntra is a Malaysian based seller for trendy fragrances ataffordable prices and for all ages, especially teenagers.</p>
+        <div class="hero-actions">
+          <a href="#catalogue" class="btn btn-solid" data-route="catalogue">View Catalogue</a>
+          <a href="#atelier" class="btn" data-route="atelier">Dossier</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <span class="hero-meta">Series N&deg;14 &middot; Oak / Wool / Brass</span>
+        <div class="frame hero-img-main">
+          <img src="images/lumen-hero.jpg" alt="A minimalist oak lounge chair in a bright white studio" loading="eager">
+        </div>
+        <div class="frame hero-img-detail">
+          <img src="images/lumen-detail.jpg" alt="Close detail of joinery in pale oak" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Philosophy quote over 80-degree diagonal slate -->
+  <div class="band band-quote band-violet">
+    <div class="container reveal">
+      <span class="quote-mark">&ldquo;</span>
+      <p class="editorial-title big-quote">Silence is enough, let scents holds weight and attraction: <span class="editorial-italic" style="color:var(--accent-violet);">without announcing the effort.</span></p>
+      <p class="quote-attr">Wan Abdul Syaafi &middot; Website Manager</p>
+    </div>
+  </div>
+
+  <!-- Featured catalogue over diagonal slate -->
+  <div class="band band-featured">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Featured Collections</span>
+          <h2 class="editorial-title section-title">The current items</h2>
+        </div>
+        <a href="#catalogue" class="text-link" data-route="catalogue">Full catalogue</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <a href="#catalogue" class="card-link" data-route="catalogue" data-anchor="cat-lounge">
+            <div class="frame"><img src="images/lumen-p1.jpg" alt="Fjord lounge chair in pale ash and undyed wool" loading="lazy"></div>
+            <div class="product-info">
+              <div><h3 class="product-name">Scèntra White Floral</h3><p class="product-cat">White Floral, Vanilla, Woody</p></div>
+              <span class="product-price">RM.10.00</span>
+            </div>
+          </a>
+        </article>
+        <article class="product-card reveal">
+          <a href="#catalogue" class="card-link" data-route="catalogue" data-anchor="cat-tables">
+            <div class="frame"><img src="images/lumen-p2.jpg" alt="Basalt monolith dining table with a single stone base" loading="lazy"></div>
+            <div class="product-info">
+              <div><h3 class="product-name">Scèntra Fruity</h3><p class="product-cat">BLackberry, Bergamot and Pear</p></div>
+              <span class="product-price">RM10.00</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Materials strip -->
+  <div class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Material Honesty</span>
+          <h2 class="editorial-title section-title">Four materials, no substitutes</h2>
+        </div>
+      </div>
+      <div class="materials-grid reveal">
+        <div class="material-cell">
+          <span class="material-num">i.</span>
+          <h3>White Floral</h3>
+          <p>Pale, light-colored blossoms that create clean, romantic, or intensely narcotic profiles in perfumery.</p>
+        </div>
+        <div class="material-cell">
+          <span class="material-num">ii.</span>
+          <h3>Vanilla</h3>
+          <p>Warm, and cozy fragrance note used mostly as a rich base note to give perfumes sweetness, depth, and staying power.</p>
+        </div>
+        <div class="material-cell">
+          <span class="material-num">iii.</span>
+          <h3>Woody</h3>
+          <p>Built around fragrant essences from trees, bushes, and roots like sandalwood, cedarwood, vetiver, patchouli, and oud</p>
+        </div>
+        <div class="material-cell">
+          <span class="material-num">iv.</span>
+          <h3>Citrus</h3>
+          <p>Belong to the Hesperidic family, derived from fruits and citrus-smelling plants that provide a bright, crisp, and refreshing opening to a scent.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Split feature -->
+  <div class="section" style="padding-top:20px;">
+    <div class="container split">
+      <div class="frame reveal">
+        <img src="images/lumen-atelier.jpg" alt="The LUMEN // 80 workshop with benches and hand tools" loading="lazy">
+      </div>
+      <div class="split-content reveal">
+        <span class="eyebrow">Inside the Dossier</span>
+        <h2 class="editorial-title">Built by eight hands, signed by one</h2>
+        <p class="lede">Trusted and recognised perfume brand that makes premium-quality fragrances accessible to everyone.</p>
+        <p class="lede" style="margin-top:16px;">SCÉNTRA aims to break the perception that luxurious and long-lasting fragrances should only be available at high prices.</p>
+        <a href="#atelier" class="text-link" style="margin-top:34px;" data-route="atelier">Read our philosophy</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ PAGE: CATALOGUE ============ -->
+<section class="page" id="page-catalogue">
+
+  <div class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">Catalogue</span>
+      <h1 class="editorial-title page-hero-title">One Spray, <span class="editorial-italic" style="color:var(--accent-violet);">all attention</span></h1>
+      <p class="lede" style="margin-top:24px;">Each version is small by design. Huge on attention retention.</p>
+    </div>
+  </div>
+
+  <!-- Minimalist Lounge -->
+  <div class="catalogue-section" id="cat-lounge">
+    <div class="container">
+      <div class="cat-head reveal"><h2 class="editorial-title">Male Choice</h2><span class="cat-count">Ver 01</span></div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="frame"><img src="images/lumen-l1.jpg" alt="Fjord lounge chair" loading="lazy"></div>
+          <div class="product-info"><div><h3 class="product-name">Scèntra White Floral</h3><p class="product-cat">White Floral, Vanilla, Woody</p></div><span class="product-price">RM.10</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Monolith Tables on diagonal slate -->
+  <div class="band band-slice" id="cat-tables">
+    <div class="container">
+      <div class="cat-head reveal"><h2 class="editorial-title">Female Choice</h2><span class="cat-count">Ver 02</span></div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="frame"><img src="images/lumen-t1.jpg" alt="Basalt dining table" loading="lazy"></div>
+          <div class="product-info"><div><h3 class="product-name">Scèntra Fruity</h3><p class="product-cat">BLackberry, Bergamot and Pear</p></div><span class="product-price">RM.10</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ PAGE: ATELIER ============ -->
+<section class="page" id="page-atelier">
+
+  <div class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">The Dossier</span>
+      <h1 class="editorial-title page-hero-title">Where fragrance <span class="editorial-italic" style="color:var(--accent-violet);">speaks</span></h1>
+      <p class="lede" style="margin-top:24px;">Malaysian based seller for trendy fragrances ataffordable prices and for all ages, especially teenagers.</p>
+    </div>
+  </div>
+
+  <!-- Fragrance Philosophy -->
+  <div class="atelier-block" id="at-philosophy">
+    <div class="container split">
+      <div class="split-content reveal">
+        <span class="eyebrow">Fragrance Philosophy</span>
+        <h2 class="editorial-title">Be center of attention by scent.</h2>
+        <p class="lede">Every piece is premium-quality, long-lasting fragrances affordable and accessible to everyone..</p>
+        <p class="lede" style="margin-top:16px;">SCÉNTRA combines elegance, quality, and affordability with practical, pocket-sized, and shatterproof bottles for everyday convenience.</p>
+      </div>
+      <div class="frame reveal"><img src="images/lumen-ph.jpg" alt="Pencil drawings of chair profiles pinned to a white wall" loading="lazy"></div>
+    </div>
+  </div>
+
+  <!-- Material Provenance on diagonal slate -->
+  <div class="band band-slice" id="at-provenance">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Material Provenance</span>
+          <h2 class="editorial-title section-title">Every notes speak for its wearer.</h2>
+        </div>
+      </div>
+      <ul class="provenance-list reveal">
+        <li><strong>White &amp; Floral</strong><span>White Floral, Vanilla, Woody.</span></li>
+        <li><strong>Fruity</strong><span>BLackberry, Bergamot and Pear.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Sustainable Woodcraft -->
+  <div class="atelier-block" id="at-woodcraft">
+    <div class="container split">
+      <div class="frame reveal"><img src="images/lumen-wood.jpg" alt="A maker hand-planing a pale oak board" loading="lazy"></div>
+      <div class="split-content reveal">
+        <span class="eyebrow">Sustainable Fragrance</span>
+        <h2 class="editorial-title">Sustained Prescence instead of Temporary Glance</h2>
+        <p class="lede">Most perfumes shout for five seconds and vanish. SCENTRA plays the long game. We traded cheap, overwhelming top notes for a scent that actually lasts.</p>
+        <p class="lede" style="margin-top:16px;">It warm-fades into your skin and hangs out in the room long after you leave. Less about catching a quick glance, more about leaving a memory.</p>
+        <a href="#inquire" class="text-link" style="margin-top:34px;" data-route="inquire">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ PAGE: INQUIRE ============ -->
+<section class="page" id="page-inquire">
+
+  <div class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">Inquire</span>
+      <h1 class="editorial-title page-hero-title">Begin a <span class="editorial-italic" style="color:var(--accent-violet);">conversation</span></h1>
+      <p class="lede" style="margin-top:24px;">Tell us about your interest. We reply personally within two working days.</p>
+    </div>
+  </div>
+
+  <div class="container inquire-grid">
+    <div class="inquire-details reveal">
+      <h3>Showroom &amp; Workshop</h3>
+      <p>Batu 8, Kundur Hilir, <br>71400 Pedas, Negeri Sembilan.<br> Monday to Friday</p>
+      <h3>Contact</h3>
+      <p>Scentra@gmail.com<br></p>
+    </div>
+
+    <form id="inquireForm" class="reveal" novalidate>
+      <div class="form-row">
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input type="text" id="f-name" name="name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input type="email" id="f-email" name="email" required autocomplete="email">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="f-interest">Interest</label>
+          <select id="f-interest" name="interest">
+            <option>Scèntra White Floral</option>
+            <option>Scèntra Fruity</option>
+          </select>
+        </div>
+      <div class="field">
+        <label for="f-message">Your opinion about us</label>
+        <textarea id="f-message" name="message" placeholder="Anything." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-solid">Send inquiry</button>
+      <p class="form-note" id="formNote">Thank you. Your inquiry has been received and the studio will reply within two working days.</p>
+    </form>
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand" data-route="home">Scèntra <span></span> </a>
+        <p>Scèntra is a Malaysian based seller for trendy fragrances ataffordable prices and for all ages, especially teenagers.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Catalogue</h4>
+        <ul>
+          <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-lounge">Scèntra White Floral</a></li>
+          <li><a href="#catalogue" data-route="catalogue" data-anchor="cat-tables">Scèntra Fruity</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Dossier</h4>
+        <ul>
+          <li><a href="#Dossier" data-route="Dossier" data-anchor="at-philosophy">Fragrance Philosophy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#inquire" data-route="inquire">Inquire</a></li>
+          <li><a href="#inquire" data-route="inquire">Book consultation</a></li>
+          <li><a href="#inquire" data-route="inquire">Trade programme</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; <span id="year"></span> Scèntra. All rights reserved.</span>
+      <span>Design: <a href="https://templatemo.com" target="_blank" rel="nofollow noopener">TemplateMo</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="templatemo-628-lumen-script.js"></script>
+</body>
+</html>
+
+
+<!-- ============ SOCIAL ACCOUNTS ============ -->
+<section class="social-section" id="social" aria-labelledby="socialTitle">
+  <div class="container">
+    <div class="social-head">
+      <div>
+        <span class="eyebrow">Follow Scèntra</span>
+        <h2 class="editorial-title section-title" id="socialTitle">Find us <span class="editorial-italic" style="color:var(--accent-violet);">online</span></h2>
+      </div>
+      <p class="lede">New scents, restocks and behind-the-scenes, straight to your feed.</p>
+    </div>
+    <ul class="social-grid">
+      <li><a class="social-card" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Scèntra on Instagram">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></span>
+        <span class="social-text"><strong>Instagram</strong><span>@scentra.my</span></span>
+      </a></li>
+      <li><a class="social-card" href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="Scèntra on TikTok">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.3 2.4 1.9 4.2 4.5 4.5"/></svg></span>
+        <span class="social-text"><strong>TikTok</strong><span>@scentra.my</span></span>
+      </a></li>
+      <li><a class="social-card" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Scèntra on Facebook">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5A.5.5 0 0 1 14 8z"/></svg></span>
+        <span class="social-text"><strong>Facebook</strong><span>Scèntra Malaysia</span></span>
+      </a></li>
+      <li><a class="social-card" href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="Chat with Scèntra on WhatsApp">
+        <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8L4 20z"/><path d="M9 9.5c.3 2.2 2.3 4.2 4.5 4.5l1.2-1.2-1.8-1-.8.6a3.5 3.5 0 0 1-1.6-1.6l.6-.8-1-1.8L9 9.5z"/></svg></span>
+        <span class="social-text"><strong>WhatsApp</strong><span>Chat to order</span></span>
+      </a></li>
+    </ul>
+  </div>
+</section>
